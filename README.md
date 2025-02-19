@@ -6,6 +6,8 @@
 
 Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
 
+Forked from https://github.com/dillionverma/portfolio
+
 # Features
 
 - Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
@@ -19,7 +21,7 @@ Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/dillionverma/portfolio
+   git clone https://github.com/JasYi/jason-portfolio.git
    ```
 
 2. Move to the cloned directory
