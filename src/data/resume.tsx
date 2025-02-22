@@ -59,6 +59,18 @@ export const DATA = {
 
   work: [
     {
+      company: "EY",
+      href: "https://www.ycombinator.com/companies/aidy",
+      badges: [],
+      location: "New York, NY",
+      title: "Data Science Intern",
+      logoUrl: "/aidy.png",
+      start: "June 2025",
+      end: "August 2025",
+      description:
+        "Incoming Data Science Intern at EY under the Tax Technology and Transformation team.",
+    },
+    {
       company: "Georgetown University",
       badges: [],
       href: "https://techandsociety.georgetown.edu/projects/fritz-family-fellows-program/",
