@@ -57,8 +57,7 @@ export default function Page() {
           {DATA.work.map((work, id) => (
             <BlurFade
               key={work.company}
-              delay={BLUR_FADE_DELAY * 6 + id * 0.05}
-            >
+              delay={BLUR_FADE_DELAY * 6 + id * 0.05}>
               <ResumeCard
                 key={work.company}
                 logoUrl={work.logoUrl}
@@ -82,8 +81,7 @@ export default function Page() {
           {DATA.education.map((education, id) => (
             <BlurFade
               key={education.school}
-              delay={BLUR_FADE_DELAY * 8 + id * 0.05}
-            >
+              delay={BLUR_FADE_DELAY * 8 + id * 0.05}>
               <ResumeCard
                 key={education.school}
                 href={education.href}
@@ -123,9 +121,8 @@ export default function Page() {
                   Check out my latest work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a few of my
-                  favorites.
+                  I&apos;ve worked on a variety of projects, ranging from data
+                  science to web dev. Here are a few of my favorites.
                 </p>
               </div>
             </div>
@@ -134,8 +131,7 @@ export default function Page() {
             {DATA.projects.map((project, id) => (
               <BlurFade
                 key={project.title}
-                delay={BLUR_FADE_DELAY * 12 + id * 0.05}
-              >
+                delay={BLUR_FADE_DELAY * 12 + id * 0.05}>
                 <ProjectCard
                   href={project.href}
                   key={project.title}
@@ -164,12 +160,10 @@ export default function Page() {
                   I like building things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time in university, I attended{" "}
-                  {DATA.hackathons.length}+ hackathons. People from around the
-                  country would come together and build incredible things in 2-3
-                  days. It was eye-opening to see the endless possibilities
-                  brought to life by a group of motivated and passionate
-                  individuals.
+                  I attended {DATA.hackathons.length}+ hackathons, where people
+                  from around the country would come together and build
+                  incredible things in 2-3 days. I always made it a point to
+                  build something that has real world impact!
                 </p>
               </div>
             </div>
@@ -179,8 +173,7 @@ export default function Page() {
               {DATA.hackathons.map((project, id) => (
                 <BlurFade
                   key={project.title + project.dates}
-                  delay={BLUR_FADE_DELAY * 15 + id * 0.05}
-                >
+                  delay={BLUR_FADE_DELAY * 15 + id * 0.05}>
                   <HackathonCard
                     title={project.title}
                     description={project.description}
@@ -206,20 +199,30 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm{" "}
+                Want to chat? Just shoot me an email at{" "}
                 <Link
-                  href={DATA.contact.social.X.url}
+                  href={"mailto:" + DATA.contact.email}
                   className="text-blue-500 hover:underline"
-                >
-                  with a direct question on twitter
+                  target="_blank">
+                  {DATA.contact.email}
                 </Link>{" "}
-                and I&apos;ll respond whenever I can. I will ignore all
-                soliciting.
+                and I&apos;ll respond whenever I can :)
               </p>
             </div>
           </BlurFade>
         </div>
       </section>
+      <BlurFade delay={BLUR_FADE_DELAY * 16}>
+        <p className="mx-auto max-w-[600px] text-muted-foreground text-sm mt-xl text-center">
+          Forked from{" "}
+          <Link
+            href="https://github.com/dillionverma/portfolio"
+            target="_blank"
+            className="text-blue-500 hover:underline">
+            dillionverma
+          </Link>{" "}
+        </p>
+      </BlurFade>
     </main>
   );
 }

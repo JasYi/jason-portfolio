@@ -43,7 +43,7 @@ export const ResumeCard = ({
       href={href || "#"}
       className="block cursor-pointer"
       onClick={handleClick}
-    >
+      target="_blank">
       <Card className="flex">
         <div className="flex-none">
           <Avatar className="border size-12 m-auto bg-muted-background dark:bg-foreground">
@@ -66,8 +66,7 @@ export const ResumeCard = ({
                       <Badge
                         variant="secondary"
                         className="align-middle text-xs"
-                        key={index}
-                      >
+                        key={index}>
                         {badge}
                       </Badge>
                     ))}
@@ -98,8 +97,7 @@ export const ResumeCard = ({
                 duration: 0.7,
                 ease: [0.16, 1, 0.3, 1],
               }}
-              className="mt-2 text-xs sm:text-sm"
-            >
+              className="mt-2 text-xs sm:text-sm">
               {description}
             </motion.div>
           )}
