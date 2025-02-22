@@ -309,7 +309,7 @@ export const DATA = {
     },
     {
       title: "Healthcare Hackathon with AI (H2AI)",
-      dates: "March 23rd - 24th, 2018",
+      dates: "April 13th - 14th, 2024",
       location: "Washington, DC",
       win: "2nd Place and People's Choice",
       description:
@@ -353,7 +353,7 @@ export const DATA = {
     },
     {
       title: "HoyaHacks '24",
-      dates: "January 20th - 21st, 2018",
+      dates: "January 27th - 28st, 2024",
       location: "Washington DC",
       description:
         "Connecting small businesses to investors by matching them based on their financials and goals.",
