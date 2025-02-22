@@ -266,7 +266,7 @@ export const DATA = {
       description:
         "Swipe to declutter your databases and reduce your environmental impact by reducing databse usage!",
       image:
-        "https://pennapps-xxv.devpost.com/?_gl=1*wjybg4*_gcl_au*ODYwOTkyMzY5LjE3NDAwNDE4ODA.*_ga*MTQxOTQ5NzI1NS4xNzQwMDQxODgx*_ga_0YHJK3Y10M*MTc0MDA0NDY4MC4yLjEuMTc0MDA0NjEyMy4wLjAuMA..",
+        "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_photos/003/000/041/datas/full_width.png",
       links: [
         {
           title: "Devpost",
