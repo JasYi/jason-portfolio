@@ -60,15 +60,15 @@ export const DATA = {
   work: [
     {
       company: "EY",
-      href: "https://www.ycombinator.com/companies/aidy",
+      href: "https://www.ey.com/en_us",
       badges: [],
       location: "New York, NY",
       title: "Data Science Intern",
-      logoUrl: "/aidy.png",
+      logoUrl: "/eylogo.png",
       start: "June 2025",
       end: "August 2025",
       description:
-        "Incoming Data Science Intern at EY under the Tax Technology and Transformation team.",
+        "Data Science Intern at EY under the Tax Technology and Transformation team.",
     },
     {
       company: "Georgetown University",
@@ -171,6 +171,55 @@ export const DATA = {
       logoUrl: "/tj.jpg",
       start: "2018",
       end: "2022",
+    },
+  ],
+  publications: [
+    {
+      title:
+        "SCIF: Privacy-Preserving Statistics Collection with Input Validation and Full Security",
+      description:
+        "Developing a data collection protocol to collect statistics from multiple sources while preserving the privacy of each source.",
+      image: "/petspapers.png",
+      href: "https://petsymposium.org/2025/paperlist.php",
+      dates: "The Privacy Enhancing Technologies Symposium 2025.",
+      tags: [],
+      video: "",
+      links: [],
+    },
+    {
+      title:
+        "Risk Assessment of Generating Digital Replicas from Text-to-Image Diffusion Models",
+      description:
+        "Exploring how powerful text-to-image diffusion models are at recreating identities with text prompting",
+      image: "/imagesposter.png",
+      href: "https://mdi.georgetown.edu/announcements/mdiresearch-fall2024/",
+      dates: "Massive Data Institute Research Showcase Fall 2024",
+      tags: [],
+      video: "",
+      links: [],
+    },
+    {
+      title:
+        "Exploring Rules Communication: Moving Beyond Static Documents to Standardized Code for U.S. Public Benefits Programs",
+      description:
+        "Exploring how to translate legal rules into code for public benefits programs",
+      image: "/racpub.png",
+      href: "https://digitalgovernmenthub.org/library/exploring-rules-communication-moving-beyond-static-documents-to-standardized-code-for-u-s-public-benefits-programs/",
+      dates: "Beeck Center for Social Impact and Innovation 2023",
+      tags: [],
+      video: "",
+      links: [],
+    },
+    {
+      title: "What the Digital Benefits Network is Reading on Automation",
+      description:
+        "A review of articles in the field of automation and its impact on public benefits.",
+      image: "/automationpub.png",
+      href: "https://beeckcenter.georgetown.edu/what-the-digital-benefits-network-is-reading-on-automation/",
+      dates: "Beeck Center for Social Impact and Innovation 2023",
+      tags: [],
+      video: "",
+      links: [],
     },
   ],
   projects: [
