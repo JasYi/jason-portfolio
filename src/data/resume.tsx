@@ -116,7 +116,7 @@ export const DATA = {
       start: "August 2023",
       end: "May 2024",
       description:
-        "Co-authored and submitted paper to IEEE Security and Privacy 2025. Developed Python script to easily configure scalable network simulations to test novel privacy collection protocols. Integrated custom golang code simulating differentially private data collection protocol.",
+        "Co-authored paper on devleoping data collection protocol to collect statistics from multiple sources while preserving their privacy. Developed Python script to easily configure scalable network simulations to test novel privacy collection protocols. Integrated custom golang code simulating differentially private data collection protocol.",
     },
     {
       company: "Hoya Developers",
@@ -192,7 +192,7 @@ export const DATA = {
       description:
         "Exploring how powerful text-to-image diffusion models are at recreating identities with text prompting",
       image: "/imagesposter.png",
-      href: "https://mdi.georgetown.edu/announcements/mdiresearch-fall2024/",
+      href: "https://drive.google.com/drive/u/1/folders/1gz0riF-C2A8dipsWA9xcGLmiHErfx3xm",
       dates: "Massive Data Institute Research Showcase Fall 2024",
       tags: [],
       video: "",
