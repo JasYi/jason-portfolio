@@ -8,9 +8,9 @@ export const DATA = {
   location: "Washington, DC",
   locationLink: "https://www.google.com/maps/place/Washington,+DC",
   description:
-    "Socially minded engineer looking to use tech to solve social problems.",
+    "Socially minded engineer looking to use tech to solve tedious processes.",
   summary:
-    "I have worked in the intersection of technology and government which has taught me to put users first. As a software engineer intern and first employee at Aidy (YC W24) I learned to listen to users and iterate quickly based on their feedback. I also previously worked as a researcher at the Massive Data Institute where I tested the fesability of operating a data collection protocol in the real world. Finally, when working at the Beeck Center for Social Impact and Innovation I gained insight into how technology can often be used in much different ways than what was initially tested and how to design for diverse groups of people.",
+    "I am interested in using technology to help with traditionally tedious and labor intensive processes. Working at EY as a Data Science Intern I worked on solutions to help save accountants time and energy by automating repetitive processes using AI. I have worked in the intersection of technology and government which has taught me to put users first. As a software engineer intern and first employee at Aidy (YC W24) I learned to listen to users and iterate quickly based on their feedback. I also previously worked as a researcher at the Massive Data Institute where I tested the fesability of operating a data collection protocol in the real world. Finally, when working at the Beeck Center for Social Impact and Innovation I gained insight into how technology can often be used in much different ways than what was initially tested and how to design for diverse groups of people.",
   avatarUrl: "/me.jpg",
   skills: [
     "Python",
@@ -68,7 +68,7 @@ export const DATA = {
       start: "June 2025",
       end: "August 2025",
       description:
-        "Data Science Intern at EY under the Tax Technology and Transformation team.",
+        "Working on AI for Tax. I led the development of a tax automation tool for a Fortune 500 client leading to a $XXX,XXX client engagement.",
     },
     {
       company: "Georgetown University",
@@ -180,7 +180,7 @@ export const DATA = {
       description:
         "Developing a data collection protocol to collect statistics from multiple sources while preserving the privacy of each source.",
       image: "/petspapers.png",
-      href: "https://petsymposium.org/2025/paperlist.php",
+      href: "https://doi.org/https://doi.org/10.56553/popets-2025-0106",
       dates: "The Privacy Enhancing Technologies Symposium 2025.",
       tags: [],
       video: "",
@@ -230,7 +230,7 @@ export const DATA = {
       active: true,
       description:
         "Identify skin conditions using computer vision then make reccomendations on specific skincare products to use.",
-      technologies: ["FastAPI", "OpenAI", "Vercel"],
+      technologies: ["Roboflow", "Flask", "NextJS", "OpenAI", "Vercel"],
       links: [
         {
           type: "Github",
