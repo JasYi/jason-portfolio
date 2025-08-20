@@ -225,7 +225,7 @@ export const DATA = {
   projects: [
     {
       title: "PorePal",
-      href: "https://github.com/JasYi/PorePal",
+      href: "https://pore-pal.vercel.app/",
       dates: "",
       active: true,
       description:
@@ -233,12 +233,17 @@ export const DATA = {
       technologies: ["Roboflow", "Flask", "NextJS", "OpenAI", "Vercel"],
       links: [
         {
+          type: "Website",
+          href: "https://pore-pal.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
           type: "Github",
           href: "https://github.com/JasYi/PorePal",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/github.svg",
+      image: "/porepal.png",
       video: "",
     },
     {
