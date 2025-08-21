@@ -233,7 +233,13 @@ export const DATA = {
       active: true,
       description:
         "Identify skin conditions using computer vision then make reccomendations on specific skincare products to use.",
-      technologies: ["Roboflow", "Flask", "NextJS", "OpenAI", "Vercel"],
+      technologies: [
+        "Roboflow",
+        "Flask",
+        "NextJS",
+        "Search-Augmented Generation",
+        "Vercel",
+      ],
       links: [
         {
           type: "Website",
@@ -256,7 +262,7 @@ export const DATA = {
       active: false,
       description:
         "Given a Github repo link and a prompt, created an API that would generate a diff that accomplishes the given prompt for the Github repo.",
-      technologies: ["FastAPI", "OpenAI", "Vercel"],
+      technologies: ["FastAPI", "LLMs", "Vercel"],
       links: [
         {
           type: "Github",
@@ -274,7 +280,7 @@ export const DATA = {
       active: true,
       description:
         "Splitting your large Spotify playlists into subplaylists by vibes.",
-      technologies: ["React", "Flask", "OAuth2.0", "Spotify API"],
+      technologies: ["React", "Flask", "Scikit-Learn", "Spotify API"],
       links: [
         {
           type: "Website",
@@ -297,7 +303,7 @@ export const DATA = {
       active: true,
       description:
         "Dynamically tracking the dialogue state of a conversation. Tracks all necessary information from a conversation and then asks the user the correct question to get the right piece of information based on the context.",
-      technologies: ["OpenAI", "Dialogue State Tracking"],
+      technologies: ["LLMs", "Dialogue State Tracking"],
       links: [
         {
           type: "Github",
