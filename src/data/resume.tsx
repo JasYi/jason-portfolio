@@ -161,6 +161,7 @@ export const DATA = {
       href: "https://www.georgetown.edu/",
       degree: "Bachelor's of Science in Computer Science",
       logoUrl: "/georgetown.png",
+      description: "Hoyalytics, Hoya Developers",
       start: "2022",
       end: "2026",
     },
@@ -168,6 +169,8 @@ export const DATA = {
       school: "Thomas Jefferson High School for Science and Technology",
       href: "https://tjhsst.fcps.edu/thomas-jefferson-high-school-science-and-technology-fairfax-county-public-schools",
       degree: "High School Diploma",
+      description:
+        "Number 1 High School in the US | TJ Speech (Captain), Environmental Impact Club, Model UN, Envirothon",
       logoUrl: "/tj.jpg",
       start: "2018",
       end: "2022",
