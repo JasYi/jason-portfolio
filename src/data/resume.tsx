@@ -68,7 +68,7 @@ export const DATA = {
       start: "June 2025",
       end: "August 2025",
       description:
-        "Working on AI for Tax. I led the development of a tax automation tool for a Fortune 500 client leading to a $XXX,XXX client engagement.",
+        "Working on AI for Tax. I led the development of a tax automation tool for a Fortune 500 client leading to a mid 6-figure client engagement.",
     },
     {
       company: "Georgetown University",
