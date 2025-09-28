@@ -59,6 +59,18 @@ export const DATA = {
 
   work: [
     {
+      company: "Holly",
+      href: "https://www.hollygov.com/",
+      badges: [],
+      location: "",
+      title: "Software Engineer Intern",
+      logoUrl: "/holly.jpg",
+      start: "September 2025",
+      end: "Present",
+      description:
+        "Improving government hiring using AI. Improved AI output consistency by implementing prompting best practices. Created internal tool to easily manage prompts.",
+    },
+    {
       company: "EY",
       href: "https://www.ey.com/en_us",
       badges: [],
