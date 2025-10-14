@@ -451,7 +451,7 @@ export const DATA = {
         {
           title: "Devpost",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://devpost.com/software/my6footprint",
+          href: "https://devpost.com/software/project-yay-bpqg7y",
         },
         {
           title: "Github",
