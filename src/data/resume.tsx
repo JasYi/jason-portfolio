@@ -66,7 +66,7 @@ export const DATA = {
       title: "Software Engineer Intern",
       logoUrl: "/holly.jpg",
       start: "September 2025",
-      end: "Present",
+      end: "December 2025",
       description:
         "Improving government hiring using AI. Improved AI output consistency by implementing prompting best practices. Created internal tool to easily manage prompts.",
     },
