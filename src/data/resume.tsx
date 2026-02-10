@@ -116,7 +116,7 @@ export const DATA = {
       start: "September 2022",
       end: "January 2025",
       description:
-        "Managed 300+ students across data science and data analytics training programs. Produced an original 6-week intensive course on Machine Learning, covering Neural Networks, Trees, DBSCAN, Ridge Regression, Support Vector Machines and more. Created an weighted matching algorithm to pair 60+ members with graph theory concepts and the networkX package.",
+        "Managed 700+ students across data science and data analytics training programs. Produced an original 6-week intensive course on Machine Learning, covering Neural Networks, Trees, DBSCAN, Ridge Regression, Support Vector Machines and more. Created an weighted matching algorithm to pair 60+ members with graph theory concepts and the networkX package.",
     },
     {
       company: "Massive Data Institute at Georgetown University",
